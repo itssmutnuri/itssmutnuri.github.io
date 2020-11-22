@@ -1,4 +1,4 @@
-My personal webpage. 
+A personal webpage, with some ramblings 
 
 
-[Link](itssmutnuri.github.io)
+[Link](https://itssmutnuri.github.io)
