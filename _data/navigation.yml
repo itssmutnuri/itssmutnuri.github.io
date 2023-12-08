@@ -2,13 +2,17 @@
 main:
   - title: "CV"
     # url: /cv/
-    url: http://itssmutnuri.github.io/files/cv.pdf
+    url: /files/cv.pdf
+    target: "_blank"
 
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Research"
+  - title: "Publications"
     url: /publications/
+  
+  # - title: "Research"
+  #   url: /research/
 
   - title: "Talks"
     url: /talks/    

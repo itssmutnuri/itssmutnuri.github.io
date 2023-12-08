@@ -12,7 +12,7 @@
     <ul>
         <li><strong>Spring 2023</strong>:
         <ul>
-            <li>Worked on agent based models for epidemiology under Prof. Srivastava (<a href="http://itssmutnuri.github.io/files/ee638.pdf">report</a>)</li>
+            <li>Worked on agent based models for epidemiology under Prof. Srivastava (<a href="http://itssmutnuri.github.io/files/ee638.pdf" target="_blank">report</a>)</li>
             <li>Continued work at the E2S2C group and the HaRVI lab</li>
             <li>Worked as a course producer for the CS526 Mobile Games course with Prof. Easley</li>
         </ul>
