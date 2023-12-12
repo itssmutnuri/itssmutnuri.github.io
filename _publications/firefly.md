@@ -13,11 +13,11 @@ This paper presents "FireFly", a synthetic dataset for em- ber detection created
 
 This work was done in collaboration with Yue Hu, under the guidance of Prof. Peter Beerel at the <a href="https://sites.usc.edu/eessc/"  target="_blank">EESSC Group</a>.
 
-The paper was presented as a poster at the workshop. Below is a picture (thanks <a href="https://tarun005.github.io"  target="_blank">Tarun</a>!):
+The paper was presented as a poster at the Artificial Intelligence for Humanitarian Assistance and Disaster Response Workshop (AI + HADR - <a href="https://www.hadr.ai/previous-versions/iccv-2023/accepted-papers-iccv23"  target="_blank">link</a>). Below is a picture (thanks <a href="https://tarun005.github.io"  target="_blank">Tarun</a>!):
 
 <img src="/images/research/firefly/firefly_iccv.jpg" width="400">
 
-We also presented the work at the ECE department research festival at USC in October 2022:
+We also presented an earlier version of the work at the ECE department research festival at USC in October 2022:
 
 <img src="/images/research/firefly/firefly_usc.jpg" width="400">
 
