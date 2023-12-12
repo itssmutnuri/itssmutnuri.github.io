@@ -12,7 +12,7 @@
     <ul>
         <li><strong>Spring 2023</strong>:
         <ul>
-            <li>Worked on agent based models for epidemiology under Prof. Srivastava (<a href="http://itssmutnuri.github.io/files/ee638.pdf" target="_blank">report</a>)</li>
+            <li>Worked on agent based models for epidemiology under Prof. Srivastava (<a href="/files/ee638.pdf" target="_blank">report</a>)</li>
             <li>Continued work at the E2S2C group and the HaRVI lab</li>
             <li>Worked as a course producer for the CS526 Mobile Games course with Prof. Easley</li>
         </ul>
@@ -60,7 +60,7 @@
     <ul>
         <li><strong>Aug 2021</strong>: Leaving TCS after five wonderful years to pursue grad studies. Been quite a memorable period!</li>
         <li><strong>2019</strong>: Won the Most Innovative Usecase Award from Adobe India at their Hackathon!</li>
-        <li><strong>2018</strong>: Published an article on Classical music in TCS' internal magazine.</li>
+        <li><strong>2018</strong>: Published an article on Classical music in TCS' internal magazine (<a href="/posts/2018/04/jukebox/" target="_blank">link</a>).</li>
         <li><strong>2017</strong>: Moved to the Immersive Technologies team, started work on AR/VR and games.</li>
         <li><strong>2016</strong>:
             <ul>

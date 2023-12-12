@@ -12,6 +12,12 @@ This talk was intended to be an introduction to Augmented Reality, focusing on i
 
 A detailed motivation is presented in the [Talk Proposal](https://in.pycon.org/cfp/2019/proposals/exploring-augmented-reality-with-python~e0rKb/).
 
+<figure id="pycon-talk">
+   <img src="/images/talks/pyconindia.jpeg" width="200">
+   <figcaption>Photo Credits: Abhyuday Pratap</figcaption>
+</figure>
+
 Links:
 * [Slides](https://docs.google.com/presentation/d/1nwUh1XZpSFy3vhp3yi5-KoIfkFSB_RJEj-2ffcVXDMk/edit#slide=id.g632282a3c9_2_46)
 * [Recording](https://www.youtube.com/watch?v=pLRk3ya38Y8)
+* [Photo by Abhyuday on Twitter/X](https://twitter.com/abhyudaypratap_/status/1182910312233619456/photo/1)

@@ -12,6 +12,12 @@ The talk focused on the basics of Augmented Reality and the various aspects whic
 
 Some more information is in the [schedule](https://2019.fossasia.org/event/schedule.html#5136).
 
+<figure id="fossasia-talk">
+   <img src="/images/talks/fossasia.jpg" width="200">
+   <figcaption>Photo Credits: Michael Cannon (CC-BY-SA 2.0)</figcaption>
+</figure>
+
 Links:
 * [Slides](https://github.com/itssmutnuri/FOSSASIA_Talk/blob/master/FOSSASIA.pdf)
 * [Recording](https://www.youtube.com/watch?v=dIs0MQ-sVyo)
+* [Photo by Michael on Flickr](https://www.flickr.com/photos/comprock/47333931262/)

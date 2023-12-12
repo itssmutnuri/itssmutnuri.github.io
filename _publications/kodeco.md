@@ -1,10 +1,9 @@
 ---
 title: "Unity Tutorials"
-collection: publications
-permalink: /publication/unity-kodeco
+collection: research
+permalink: /research/unity-kodeco
 excerpt: 'Tutorials and Books for Unity tutorial team'
 date: 2021-03-13
-venue: 'Kodeco'
 ---
 
 Worked on tutorials and a book for the Unity team at [Kodeco](https://www.kodeco.com/) (formerly raywenderlich.com). A summary of my work can be accessed [here](https://www.kodeco.com/library?q=srikar+mutnuri).
