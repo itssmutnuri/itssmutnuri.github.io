@@ -8,11 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I'm Srikar, a Research Associate at the University of Southern California focusing on exploring the use of networks and agent-based dynamical models for computer vision and human-computer interaction (HCI). An expanded list of interests is  <a href="files/researchinterests.pdf"  target="_blank">here</a>.
+I'm Srikar, a first year CS PhD student at the University of Virginia, Charlottesville focusing on dynamic networks and epidemics. 
 
-I'm actively applying for full-time research and engineering roles.
+Here's my <a href="files/cv.pdf"  target="_blank">full CV</a>, and an   <a href="files/researchinterests.pdf"  target="_blank">expanded list of interests</a>.
 
-Here's my <a href="files/cv.pdf"  target="_blank">full CV</a>.
 
 ## News
 

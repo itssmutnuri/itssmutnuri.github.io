@@ -1,6 +1,6 @@
+* **Aug 2024**: Started as a CS PhD @ UVA!
 * **Jan 2024**: 
     - A pre-print of my work on dynamics-informed GNNs is now on arXiv [<a href="https://arxiv.org/abs/2401.03390"  target="_blank">2401.03390</a>]
-
 * **Oct 2023**: 
     - Attended my first [UIST](https://uist.acm.org/2023/) in San Francisco as a student volunteer between 29 Oct - 1 Nov, 2023.
     - My directed research work with Prof. Beerel was presented as a poster at the [HADR workshop](https://www.hadr.ai/previous-versions/iccv-2023/accepted-papers-iccv23) at ICCV'23 in Paris. [This post](/research/firefly) covers it in a bit more detail.
@@ -15,7 +15,7 @@
     <ul>
         <li><strong>Spring 2023</strong>:
         <ul>
-            <li>Worked on agent based models for epidemiology under Prof. Srivastava (<a href="/files/ee638.pdf" target="_blank">report</a>)</li>
+            <li>Worked on agent based models for epidemiology under Prof. Srivastava </li>
             <li>Continued work at the E2S2C group and the HaRVI lab</li>
             <li>Worked as a course producer for the CS526 Mobile Games course with Prof. Easley</li>
         </ul>
