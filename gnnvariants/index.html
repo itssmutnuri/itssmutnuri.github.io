@@ -6,8 +6,7 @@
         content="">
   <meta name="keywords" content="Epidemiology, Graph Neural Networks, Public Health Planning, Forecasting">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dynamics-based Feature Augmentation of Graph Neural
-    Networks for Variant Emergence Prediction</title>
+  <title>Global Prediction of COVID-19 Variant Emergence Using Dynamics-Informed Graph Neural Networks</title>
 
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
@@ -41,14 +40,13 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Dynamics-based Feature Augmentation of Graph Neural
-            Networks for Variant Emergence Prediction</h1>
-            <h3 class="title is-4">Supplementary Material</h3>
+          <h1 class="title is-1 publication-title">Global Prediction of COVID-19 Variant Emergence Using Dynamics-Informed Graph Neural Networks</h1>
+            <!-- <h3 class="title is-4"></h3> -->
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://www.linkedin.com/in/majdalaawar/">Majd Al Aawar</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://srmutnuri.dev">Srikar Mutnuri</a><sup>1</sup>,</span>
+              <a href="https://srmutnuri.dev">Srikar Mutnuri</a><sup>2</sup>,</span>
             <span class="author-block">
               <a href="https://www.linkedin.com/in/mansooreh-montazerin-99933a183/">Mansooreh Montazerin</a><sup>1</sup>,
             </span>
@@ -59,10 +57,31 @@
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>University of Southern California</span>
+            <span class="author-block"><sup>2</sup>University of Virginia</span>
           </div>
 
           <div class="column has-text-centered">
             <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2401.03390"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- ArXiv Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2401.03390"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/itssmutnuri/gnnvariants"
@@ -73,6 +92,7 @@
                   <span>Code</span>
                   </a>
               </span>
+              
             </div>
 
           </div>
@@ -83,7 +103,7 @@
 </section>
 
 <!-- Abstract. -->
-<!-- <section class="section">
+<section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
@@ -93,174 +113,8 @@
         </div>
       </div>
     </div>
-</section> -->
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-3" id="sec:detailedDerivations">Detailed Derivations</h2>
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-      <h3 class="title is-4" id="growthRates">Growth Rates</h3>
-      <div class="content has-text-justified">
-
-        We start by using a model of infectious diseases that generalizes a large class of models <sup><a href="#fn1" id="ref1">1</a></sup>:
-
-        \begin{align}
-
-        \Delta I(t) &\approx \beta \kappa(t) \bar{S}(t) \sum_{\tau=0}^{\infty} \bar{\alpha}(\tau) \Delta I(t - \tau)  \\
-        &\approx \beta \bar{S}(t) \Delta I(t - b)(1 + \epsilon_t) 
-
-        \tag{1} 
-        \end{align}
-
-        where \(\Delta I(t)\) is the new infections at time \(t\), \(\bar{\alpha}(\tau)\) are transmission parameters, \(\bar{S}(t)\) is the fraction of susceptible population, and \(\epsilon_t\) is some small number. The number of contacts at time \(t\) is given by \(\kappa(t)\). The approximation follows from Taylor expansion, and using the fact that \(\Delta I(t)\) is a smooth function. The constant \(b\) happens to be the mean serial interval - the average time between two successive infections. Now, given two variants \(i\) and \(j\), assuming full cross-immunity between all variants, i.e. \(\bar{S}_i(t) =\bar{S}_j(t) = \bar{S}(t)\), the prevalence ratio is approximated as:
-
-        \begin{align}
-
-        r_{ij}(t) &= \frac{\Delta I_i(t)}{\Delta I_j(t)} \approx \frac{\beta_i}{\beta_j} \frac{\kappa(t) \bar{S}(t)\Delta I_i(t - b_i)}{\kappa(t)\bar{S}(t)\Delta I_j(t - b_j)} \nonumber \\ 
-        &\approx \frac{\beta_i}{\beta_j} \frac{\Delta I_i(t - b)}{\Delta I_j(t - b)} = \beta_{ij} r_{ij}(t - b) 
-
-        \tag{2}
-        \end{align}
-
-        The above further assumes that the mean serial intervals of the two variants are close, i.e., \(b_i = b_j = b\).  Note that we assumed full cross-immunity which is true for a number of variants before the Omicron sub-variants <sup><a href="#fn2" id="ref2">2</a></sup>. If there is only a partial cross immunity,  \(\bar{S}_i(t) \neq \bar{S}_j(t)\). However, in a short interval, the new immunity (reduction is susceptibility) created by the variants is small. As a result, it can be shown that   \(\bar{S}_i(t) \approx \beta_{ij}' \bar{S}_j(t)\) for some constant \(\beta_{ij}'\) which can be absorbed in the parameter \(\beta_{ij}\) above.
-
-        Solving the above recurrence relation, we get:
-
-        \begin{equation}
-            r_{ij}(t) = (\beta_{ij})^{t/b} r_{ij}(0)
-        \end{equation}
-
-        Taking the logarithm reduces the equation to:
-
-        \begin{equation}
-        \ln(r_{ij}(t)) = \frac{t}{b} \ln(\beta_{ij}) + \ln(r_{ij}(0)) \\
-        = S_{ij}t + C
-        \label{eq3} \tag{3}
-        \end{equation}
-
-        Where the constant \(b\) is the mean serial interval – the average time between two successive infections, and \(\beta_{ij}\) is the ratio of transmission rates between the two competing variants. 
-        
-      </div>
-      
-      <h3 class="title is-4" id="dynamicsBasedModel">Dynamics-based Model</h3>
-        <div class="content has-text-justified">
-
-          Consider three variants \(i\), \(j\), and \(k\) where \(i\) is an emerging variant. We assume that either of the following holds - (i) Variants \(j\) and \(k\), respectively in regions \(X\) and \(Y\), are the variants that constitute most of the other infections; or (ii) All variants other than \(i\) in the respective regions \(X\) and \(Y\) have similar enough global growth rates that can be grouped into variants \(j\) and \(k\). Suppose variant \(i\) appears in region \(X\) first, followed by region \(Y\). Then we have:
-
-          \begin{equation}
-
-          \ln \left(\frac{{p^{Y}_i(t)}}{{p^{Y}_j(t)}}\right) = S_{ij}(t-t_0) + C_Y'
-
-          \label{eq4} \tag{4}
-          \end{equation}
-
-          \begin{equation}
-
-          \ln \left(\frac{{p^{X}_i(t)}}{{p^{X}_k(t)}}\right) = S_{ik}(t-t_0) + C_X'
-
-          \label{eq5} \tag{5}
-          \end{equation}
-
-          For a new variant, initially, the number of infections increase because of the new infections coming from a different region (importations). After some point, when transmission starts to happen within region (community transmission), the imported infections become negligible in comparison, and this is the point after which above equations are valid.
-
-          Suppose we select \(t_0\) as the time at which \(p^{X}_i(t_0)\) is large enough such that the community transmission dictates the dynamics in the region \(Y\) rather than importations and so, both Equations \ref{eq4} & \ref{eq5} hold for \(t \geq t_0 \). Suppose that the threshold for prevalence in region \(Y\) for community transmission to dominate is \(\theta_Y\) and that for region \(X\) is  \(\theta_X\). We assume that \(\theta_X\) and \(\theta_Y\) are independent of the variant. Then, by setting \(t=t_0\) in equations \ref{eq4} & \ref{eq5}, we get:
-
-          \begin{align}
-
-          \ln \left(\frac{{\theta_Y}}{{1 - \theta_Y}}\right) = C_Y' \quad \text{and} \quad
-          \ln \left(\frac{{\theta_X}}{{1 - \theta_X}}\right) = C_X'
-
-          \label{eq6} \tag{6}
-          \end{align}
-
-          Therefore, both \(C_Y'\) &  \(C_X'\) are variant independent. Let \(t^{\theta}_Y\) and \(t^{\theta}_X\) be the times at which variant \(i\) reach target prevalence of \(\theta\) in regions \(Y\) and \(X\), respectively. We want to find \(\tau = t^{\theta}_Y - t^{\theta}_X\). From equations \ref{eq4} and \ref{eq5}:
-
-          \begin{equation}
-
-          \begin{aligned}
-          \ln \left(\frac{{\theta}}{{1 - \theta}}\right) = S_{ij}(t^{\theta}_Y - t_0) + C_Y' = S_{ik}(t^{\theta}_X - t_0) + C_X' \\
-          \implies S_{ij} \tau = (S_{ij} - S_{ik})(t^{\theta}_X - t_0) + C_X' - C_Y'
-          \end{aligned}
-
-          \label{eq7} \tag{7}
-          \end{equation}
-
-
-          Also from equation \ref{eq5}:
-
-          \begin{equation}
-
-          \begin{gathered}
-          t^{\theta}_X - t_0 = \frac{1}{S_{ik}}\left(\ln \left(\frac{{\theta}}{{1 - \theta}}\right) - C_X'\right). \\
-          \end{gathered}
-
-          \label{eq8} \tag{8}
-          \end{equation}
-
-
-          Plugging this value into equation \ref{eq7}, we get:
-
-          \begin{equation}
-
-          \begin{gathered}
-          S_{ij} \tau = \frac{(S_{ij} - S_{ik})}{S_{ik}}\left(\ln \left(\frac{{\theta}}{{1 - \theta}}\right) - C_X' \right) + C_X' - C_Y' \\
-          \implies \tau = \frac{S_{kj}}{S_{ij}S_{ik}}\ln \left(\frac{{\theta}}{{1 - \theta}}\right) - \frac{S_{kj}}{S_{ij}S_{ik}}C_X' + \frac{C_X' - C_Y'}{S_{ij}}
-          \end{gathered}
-
-          \label{eq9} \tag{9}
-          \end{equation}
-
-
-          Here \(\theta\) is a given prevalence, \(S_{ij}\), \(S_{ik}\), and \(S_{kj}\) are global relative growth rates estimated as shown earlier. \(C'_X\) and \(C'_Y\) are unknowns.
-          Therefore for each pair of regions \(X\) and \(Y\), to identify the delay in reaching a given prevalence \(\theta\), we can build a linear model \(Y = W^T Z\)
-
-          \begin{equation}
-
-          \begin{gathered} 
-              Y = \tau(i,j,k,\theta) - \frac{S_{kj}}{S_{ij}S_{ik}}\ln \left(\frac{{\theta}}{{1 - \theta}}\right) \\
-              Z = \begin{bmatrix}
-              - \frac{S_{kj}}{S_{ij}S_{ik}} \\
-              \frac{1}{S_{ij}}
-              \end{bmatrix}
-              W = \begin{bmatrix}
-              C_X'\\
-              C_X' - C_Y'
-              \end{bmatrix}
-          \end{gathered}
-
-          \label{eq10} \tag{10}
-          \end{equation}
-
-
-          We then use the calculated weights from our linear models in equation \ref{eq10} and plug them into equation \ref{eq9} to find the \(\tau\) value between two regions. This is a pairwise model that estimates the delay between two regions rather than providing a delay from the current date. Algorithm 1 in the paper shows how we compute the date at which a variant arrives in a given region \(Y\), we calculate the median of the outputs from all pairwise models from region \(X_q\) to region \(Y\). We evaluate the performance of all the models \((X_q, Y)\) until the current date, and pick the top three source regions among \(\{X_1, X_2, \dots\}\). The median of these selected models is then taken to represent the delay at time \(t\) for the new variant. 
-
-        </div>
-
-        <h2 class="title is-3" id="sec:references">References</h2>
-        
-        <p>1. Srivastava A. (2023). The variations of SIkJalpha model for COVID-19 forecasting and scenario projections. Epidemics, 45, 100729.<a href="https://doi.org/10.1016/j.epidem.2023.100729">https://doi.org/10.1016/j.epidem.2023.100729</a><a href="#ref1">↩</a></p>
-
-        <p>2. Chen, J., Gu, C., Ruan, Z., & Tang, M. (2023). Competition of SARS-CoV-2 variants on the pandemic transmission dynamics. Chaos, solitons, and fractals, 169, 113193. <a href="https://doi.org/10.1016/j.chaos.2023.113193">https://doi.org/10.1016/j.chaos.2023.113193</a><a href="#ref2">↩</a></sup></p>
-
-      </div>
-      
-  </div>
 </section>
 
-
-<!-- <section class="section" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre>
-  </div>
-</section> -->
 
 
 <footer class="footer">
