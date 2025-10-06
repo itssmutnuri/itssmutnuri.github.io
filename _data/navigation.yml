@@ -1,0 +1,18 @@
+# main links links
+main:
+  # - title: "CV"
+  #   url: /files/cv.pdf
+  #   target: "_blank"
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Talks"
+    url: /talks/    
+    
+  - title: "Blog"
+    url: /blog/
+
