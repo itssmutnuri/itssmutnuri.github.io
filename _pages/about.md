@@ -1,27 +1,24 @@
 ---
+layout: about
+title: about
 permalink: /
-title: "Hello World!"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+subtitle: CS PhD @ Biocomplexity Institute, UVA
+
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
+  more_info: >
+
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
-I'm Srikar, a first year CS PhD student at the University of Virginia, Charlottesville focusing on dynamic networks and epidemics. 
+I'm Srikar, a second year CS PhD student at the <a href="https://biocomplexity.virginia.edu/"  target="_blank">Biocomplexity Institute</a>. with the University of Virginia, Charlottesville.
 
-Here's my <a href="files/cv.pdf"  target="_blank">full CV</a>, and an   <a href="files/researchinterests.pdf"  target="_blank">expanded list of interests</a>.
+My work focuses on on dynamic networks and epidemics, advised by <a href="https://biocomplexity.virginia.edu/our-team/madhav-marathe"  target="_blank">Prof. Madhav Marathe</a>.
 
+Here's my <a href="assets/pdf/cv.pdf"  target="_blank">full CV</a>. I'd love to collaborate, feel free to reach out at `<lastname> at virginia dot edu` to chat!
 
-## News
-
-{% include_relative news.md %}
-
-
-
-
-
-
-
-
-
+<h2>News</h2>
+{% include news-content.md show_full_news=false %}

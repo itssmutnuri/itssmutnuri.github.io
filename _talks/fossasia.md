@@ -1,19 +1,20 @@
 ---
-title: "Augmented Reality for Mobile"
-collection: talks
-type: "Talk"
-permalink: /talks/fossasia-2019-ar
-venue: "FOSSASIA 2019, Singapore"
+layout: page
+title: Augmented Reality for Mobile
+excerpt: 'FOSSASIA 2019, Singapore'
 date: 2019-03-15
-location: "Singapore"
+importance: 1
+img: /assets/img/talks/fossasia.jpg
+category: conference
 ---
 
-The talk focused on the basics of Augmented Reality and the various aspects which make it possible, in a mobile context. How a few mobile libraries (ARCore/ARKit) are handling the key features of AR is also seen.
+The talk focused on the basics of Augmented Reality and the various aspects that make it possible, specifically in a mobile context.  
+It also discussed how libraries like **ARCore** and **ARKit** handle core AR functionality such as motion tracking, environment understanding, and light estimation.
 
-Some more information is in the [schedule](https://2019.fossasia.org/event/schedule.html#5136).
+More information is available in the official [FOSSASIA 2019 schedule](https://2019.fossasia.org/event/schedule.html#5136).
 
 <figure id="fossasia-talk">
-   <img src="/images/talks/fossasia.jpg" width="200">
+   <img src="/assets/img/talks/fossasia.jpg" width="500">
    <figcaption>Photo Credits: Michael Cannon (CC-BY-SA 2.0)</figcaption>
 </figure>
 

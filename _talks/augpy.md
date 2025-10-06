@@ -1,11 +1,11 @@
 ---
-title: "Augmented Reality using Python"
-collection: talks
-type: "Talk"
-permalink: /talks/pycon-2019-augpy
-venue: "PyCon India 2019, Chennai, India"
+layout: page
+title: Augmented Reality using Python 
+excerpt: 'PyCon India 2019, Chennai, India'
 date: 2019-10-12
-location: "Chennai, India"
+importance: 1
+img: /assets/img/talks/pyconindia.jpeg
+category: conference
 ---
 
 This talk was intended to be an introduction to Augmented Reality, focusing on its basic priciples, and how we can draw insights from the well established field of computer vision. I also showcased a python-based library, [AugPy](https://github.com/itssmutnuri/AugPy) with a simple goal of showing a (badly rendered) 3D model on top of a book (for the interested its Carl Sagan's Contact). The repo now lies unmaintained.
@@ -13,7 +13,7 @@ This talk was intended to be an introduction to Augmented Reality, focusing on i
 A detailed motivation is presented in the [Talk Proposal](https://in.pycon.org/cfp/2019/proposals/exploring-augmented-reality-with-python~e0rKb/).
 
 <figure id="pycon-talk">
-   <img src="/images/talks/pyconindia.jpeg" width="200">
+   <img src="/assets/img/talks/pyconindia.jpeg" width="500">
    <figcaption>Photo Credits: Abhyuday Pratap</figcaption>
 </figure>
 
