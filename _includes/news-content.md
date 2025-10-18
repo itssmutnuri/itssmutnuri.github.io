@@ -85,7 +85,7 @@ See older updates <a href="{{ '/full-news/' | relative_url }}"  target="_blank">
     <ul>
         <li><strong>Aug 2021</strong>: Leaving TCS after five wonderful years to pursue grad studies. Been quite a memorable period!</li>
         <li><strong>2019</strong>: Won the Most Innovative Usecase Award from Adobe India at their Hackathon!</li>
-        <li><strong>2018</strong>: Published an article on Classical music in TCS' internal magazine (<a href="/blog/2018/04/jukebox/" target="_blank">link</a>).</li>
+        <li><strong>2018</strong>: Published an article on Classical music in TCS' internal magazine</li>
         <li><strong>2017</strong>: Moved to the Immersive Technologies team, started work on AR/VR and games.</li>
         <li><strong>2016</strong>:
             <ul>
