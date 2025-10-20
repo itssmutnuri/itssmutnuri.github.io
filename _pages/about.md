@@ -16,7 +16,7 @@ social: true # includes social icons at the bottom of the page
 
 I'm Srikar, a second year CS PhD student at the <a href="https://biocomplexity.virginia.edu/"  target="_blank">Biocomplexity Institute</a> with the University of Virginia, Charlottesville.
 
-My work focuses on on dynamic networks and epidemics, advised by <a href="https://engineering.virginia.edu/faculty/madhav-marathe"  target="_blank">Prof. Madhav Marathe</a>. Here's my <a href="assets/pdf/cv.pdf"  target="_blank">full CV</a>. 
+My work focuses on on dynamic networks, neural systems, and contagion processes, advised by <a href="https://engineering.virginia.edu/faculty/madhav-marathe"  target="_blank">Prof. Madhav Marathe</a>. Here's my <a href="assets/pdf/cv.pdf"  target="_blank">full CV</a>. 
 
 I'd love to collaborate, feel free to reach out at `<lastname> at virginia dot edu` to chat!
 
