@@ -1,4 +1,4 @@
-* **Oct 2025**: @ Pacific Grove, CA to present our expanded work on brain dynamics as a poster at the 59th Asilomar Conference on Signals, Systems, & Computers. 
+* **Oct 2025**: @ Pacific Grove, CA to present our <a href="/effectome/causal.pdf"  target="_blank">expanded work on brain dynamics</a> as a poster at the 59th Asilomar Conference on Signals, Systems, & Computers. 
 
 * **Jun 2025**: Serving as the Infrastructure co-chair for the 4th <a href="https://logconference.org"  target="_blank">Learning on Graphs (LoG) Conference</a>, Phoenix, AZ. Happening December 10-12, 2025.
 
