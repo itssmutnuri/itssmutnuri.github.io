@@ -1,6 +1,7 @@
-* **Oct 2025**: @ Pacific Grove, CA to present our <a href="/effectome/causal.pdf"  target="_blank">expanded work on brain dynamics</a> as a poster at the 59th Asilomar Conference on Signals, Systems, & Computers. 
+* **Dec 2025**: @ Phoeniz, AZ for the 4th <a href="https://logconference.org"  target="_blank">Learning on Graphs (LoG) Conference</a>. Served as the Infra co-chair.
 
-* **Jun 2025**: Serving as the Infrastructure co-chair for the 4th <a href="https://logconference.org"  target="_blank">Learning on Graphs (LoG) Conference</a>, Phoenix, AZ. Happening December 10-12, 2025.
+
+* **Oct 2025**: @ Pacific Grove, CA to present our <a href="/effectome/causal.pdf"  target="_blank">expanded work on brain dynamics</a> as a poster at the 59th Asilomar Conference on Signals, Systems, & Computers. 
 
 * **May 2025**:  Presented our preliminary work on causal brain estimation as an <a href="https://gspworkshop.org/schedule/#:~:text=Mutnuri%20et%20al"  target="_blank">oral</a> (remotely) at the Graph Signal Processing Workshop in Montreal, Canada. 
 

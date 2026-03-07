@@ -11,7 +11,7 @@ profile:
   more_info: >
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
 I'm Srikar, a second year CS PhD student at the <a href="https://biocomplexity.virginia.edu/"  target="_blank">Biocomplexity Institute</a> with the University of Virginia, Charlottesville.

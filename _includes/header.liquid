@@ -56,6 +56,8 @@
             </a>
           </li>
 
+          
+
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
@@ -117,6 +119,10 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          
+          <!-- CV --> 
+          <li class="nav-item"><a class="nav-link" href="assets/pdf/cv.pdf"  target="_blank"">cv</a></li> 
+
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
