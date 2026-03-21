@@ -1,5 +1,6 @@
-* **Dec 2025**: @ Phoeniz, AZ for the 4th <a href="https://logconference.org"  target="_blank">Learning on Graphs (LoG) Conference</a>. Served as the Infra co-chair.
+* **Feb 2026**: Work on network-mediated propagation in time-varying brain networks accepted to <a href="https://www.netsci2026.com/" target="_blank">NetSci 2026</a> (Boston, MA).
 
+* **Dec 2025**: @ Phoeniz, AZ for the 4th <a href="https://logconference.org"  target="_blank">Learning on Graphs (LoG) Conference</a>. Served as the Infra co-chair.
 
 * **Oct 2025**: @ Pacific Grove, CA to present our <a href="/effectome/causal.pdf"  target="_blank">expanded work on brain dynamics</a> as a poster at the 59th Asilomar Conference on Signals, Systems, & Computers. 
 
